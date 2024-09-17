@@ -30,9 +30,13 @@ Chave API da Gemini: Para gerar suas transcrições.
 Número de WhatsApp: Para onde os resumos serão enviados.
 # Como Usar
 Inicie uma reunião no Google Meet.
+
 Ative a transcrição apertando o botão "Ativar transcrição".
+
 Após a reunião, clique em "Finalizar e  Resumir", e o resumo será enviado diretamente para o seu WhatsApp.
-Contribuição
+
+# Contribuição
+
 Se você deseja contribuir para o desenvolvimento do TranscriMeet, siga estas etapas:
 
 Faça um fork deste repositório.
