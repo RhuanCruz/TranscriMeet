@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Transcrição do Google Meet",
+  "version": "1.0",
+  "description": "Transcreve conversas no Google Meet e envia resumos para um webhook",
+  "permissions": ["activeTab", "scripting", "storage", "tabs"],
+  "host_permissions": [
+    "https://meet.google.com/*",
+    "https://generativelanguage.googleapis.com/*",
+    "https://n8n.gualbank.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
