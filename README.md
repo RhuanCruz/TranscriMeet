@@ -40,18 +40,22 @@ Após a reunião, clique em "Finalizar e  Resumir", e o resumo será enviado dir
 Se você deseja contribuir para o desenvolvimento do TranscriMeet, siga estas etapas:
 
 Faça um fork deste repositório.
+
 Crie um branch para a funcionalidade que deseja implementar:
-bash
-Copiar código
+
 git checkout -b minha-nova-funcionalidade
+
 Após implementar a funcionalidade, submeta um pull request.
-Licença
+
+# Licença
 Este projeto é licenciado sob a MIT License.
 
-Suporte
-Se você tiver algum problema ou dúvida, entre em contato via e-mail em suporte@transcrimeet.com.
+# Suporte
+Se você tiver algum problema ou dúvida, entre em contato via e-mail em zurcn8n@gmail.com
 
-Roadmap
+# Roadmap
 Melhorar a integração com WhatsApp para que a chave API seja gerada automaticamente.
+
 Suporte para mais plataformas de videoconferência (Zoom, Microsoft Teams).
+
 Resumos mais detalhados com categorias personalizadas.
